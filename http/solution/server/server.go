@@ -88,7 +88,7 @@ func get(data map[string]Person, r *http.Request) (Person, error) {
 
 // idFromPath crudely parses the path and finds the ID.
 func idFromPath(r *http.Request) string {
-	path := r.RequestURI
+	path := r.URL.Path
 	parts := strings.Split(path, "/")
 	if len(parts) == 0 {
 		return ""

@@ -72,3 +72,35 @@ Retreive the data again using the ID the server returned to you.
 **Extra**: Have your client program accept command line parameters
 that are passed on to the server. Return a non-zero exit code if
 the request fails.
+
+## 7 Testing
+
+Write tests for your HTTP handler function using the
+`net/http/httptest` package.
+
+Here's something to help you get started:
+
+1. Create a file in the `server` directory and name it `server_test.go`
+2. Use this template:
+   ```go
+   package main
+
+   import (
+       "testing"
+       "net/http"
+       "net/http/httptest"
+   )
+
+   func TestGetPerson(t *testing.T) {
+       // write your test here.
+   }
+   ```
+3. Create a `http.Request` to represent the type of request you want to
+   test (a GET request for a person with a given ID).
+4. Use `httptest.NewRecorder()` to create a `ResponseRecorder`
+5. Create an HTTP handler that wraps your handler with `http.HandlerFunc()`
+   and call it with `.ServeHTTP()` passing your `ResponseRecorder` and request.
+6. Inspect the `ResponseRecorder` and test for its properties such as status code
+   and body.
+
+Refer to the [the documentation](https://golang.org/pkg/net/http/httptest/).
