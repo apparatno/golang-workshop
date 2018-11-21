@@ -76,3 +76,13 @@ as methods on them.
 and implement a function that can accept the interface and
 print information about the shape to the screen.
 
+## Caesar cipher (ROT13)
+
+Implement the Caesar cipher in a way so that you can both
+encrypt and decrypt a string.
+
+The Caesar cipher works like this:
+Given a key `n`, which is a number between 1 and 25,
+encrypt a text by moving each letter `n` places forward
+in the alphabet.
+Decrypting is done by moving `n` places backward.
