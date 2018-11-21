@@ -11,6 +11,29 @@ Some quick tips to get started:
 * ... but you don't have to compile it if you only use one file.
   Run it directly with `go run main.go`.
 
+### Testing
+
+Familiarize yourself with testing in Go by writing tests for your
+solutions to to the exercises
+(except for Hello World, perhaps...).
+
+Typically to test functions in a file named `foo.go`
+you create a file named `foo_test.go`.
+Give it the following structure:
+
+```go
+package main
+
+import "testing"
+
+func TestMyThing(t *testing.T) {
+    // implement your test here
+}
+```
+
+Run your test with `go test .`.
+
+
 ## Hello world
 
 The foundation of all programming:
@@ -53,24 +76,3 @@ as methods on them.
 and implement a function that can accept the interface and
 print information about the shape to the screen.
 
-## Testing
-
-Familiarize yourself with testing in Go by writing tests for your
-solutions to to the above exercises
-(except for Hello World, perhaps...).
-
-Typically to test functions in a file named `foo.go`
-you create a file named `foo_test.go`.
-Give it the following structure:
-
-```go
-package main
-
-import "testing"
-
-func TestMyThing(t *testing.T) {
-    // implement your test here
-}
-```
-
-Run your test with `go test .`.
