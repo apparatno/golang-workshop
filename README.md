@@ -12,4 +12,4 @@ November 2018.
   syntax and how to compile, and run your programs.
 * [HTTP](http) Here you will write a simple RESTful server and a CLI client
   to interact with it.
-* [Channels] Play with channels and goroutines to do some concurrent computing.
+* [Channels](channels) Play with channels and goroutines to do some concurrent computing.

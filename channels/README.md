@@ -11,3 +11,7 @@ The exercises can be solved in any order you like.
 * [**echo**](echo)
   Create a program that accepts keyboard
   input and writes it back out.
+
+* [**Table tennis simulator**](tabletennis)
+  Pass a ball between two players using goroutines
+  and channels.
