@@ -5,6 +5,8 @@ Here are some exercises for the
 in [Google Developer Group Bergen](https://www.meetup.com/en-AU/GDGBergen/)
 November 2018.
 
+The workshop will get an encore in January 2020 🎉
+
 [Here are the slides](https://docs.google.com/presentation/d/e/2PACX-1vSZ2-G-EkLxEfGMurk2_whFXN3qKT3WhRM9Hw3pjE_K3i0JCDOBDF0wLgW1m36UooNgtIK9W-WRlMvS/pub?start=false&loop=false&delayms=15000)
 from the presentation.
 
